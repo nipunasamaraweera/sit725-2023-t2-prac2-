@@ -1,0 +1,23 @@
+
+{
+  "name": "sit725-2021-t2-prac",
+"version": "1.0.0",
+"description": "sit 725 T2 week 2 prac",
+"main": "server.js",
+"scripts": {
+"start": "node server.js"
+},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/nipunasamaraweera/sit725-2023-t1-prac2-"
+},
+"author": "Nipuna Samaraweera",
+"license": "MIT",
+"bugs": {
+"url": "https://github.com/nipunasamaraweera/sit725-2023-t1-prac2-"
+},
+"homepage": "",
+"dependencies": {
+"express": "^4.17.1"
+}
+}
