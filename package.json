@@ -9,12 +9,12 @@
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/nipunasamaraweera/sit725-2023-t1-prac2-"
+"url": "git+https://github.com/nipunasamaraweera/sit725-2023-t2-prac2-"
 },
 "author": "Nipuna Samaraweera",
 "license": "MIT",
 "bugs": {
-"url": "https://github.com/nipunasamaraweera/sit725-2023-t1-prac2-"
+"url": "https://github.com/nipunasamaraweera/sit725-2023-t2-prac2-"
 },
 "homepage": "",
 "dependencies": {
