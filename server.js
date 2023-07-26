@@ -12,10 +12,13 @@ app.get('/',(req,res)=>{
 app.post('',(req,res)=>
 {});
 
-app.post('addTwoNumbers',(req,res)=>{
-    let statusCode
-}
-)
+app.use('/addTwoNumbers', (req,res)=>{
+    var n1= req.query.n1;
+    var n2= req.query.n2;
+    var result= addNumbers(n1,n2);
+    res.json({statuscode:200,data:result,message:"Success"});
+});
+
 app.listen(port,()=>{
 console.log("App listening to: "+port)
 })
